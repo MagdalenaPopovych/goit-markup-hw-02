@@ -1,0 +1,238 @@
+:root{
+    --main-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --hover-color: #2196F3;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --white-color: #FFFFFF;
+    --background-color: #F5F4FA;
+}
+body{
+ font-family: var(--main-font);
+}
+
+/*--=== COMPONENTS ===--*/
+
+/*--=== COMPONENTS ===--*/
+
+
+/*---== HEADER ==---*/
+.container{
+    width: 1200;
+    height:auto;
+}
+
+.navigation__logo{
+    font-family: var(--main-font);
+    text-decoration: none;
+}
+
+.navigation-list-link{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.029;
+    text-decoration: none;
+    color:var(--main-color);
+    
+}
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus{
+    color: var(--hover-color);
+}
+.address{
+    font-style: normal;
+}
+
+.mailto{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.mailto:hover,
+.mailto:focus{
+    color: var(--hover-color);
+}
+.phone-number{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.phone-number:hover,
+.phone-number:focus{
+    color: var(--hover-color);
+}
+
+
+/*---== END HEADER ==---*/
+
+
+/*--=== FIRST-PART ===--*/
+
+.main-tittle{
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1.363;
+    /* text-align:center;
+    color:#FFFFFF; */
+}
+
+.bnt{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    height: 50px;
+    color:var(--white-color);
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+/*--=== FIRST-PART-END ===--*/
+
+
+/*--=== SECOUND-PART ===--*/
+
+.secound-part-tittle{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+    color:var(--main-color);
+}
+.secound-part-under-tittle{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--secondary-color);
+}
+
+/*--=== SECOUND-PART-END ===--*/
+
+
+/*--=== THIRD-PART ===--*/
+
+.under-tittle{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.171;
+    color:var(--main-color);
+}
+
+.our-team-name{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.171;
+    color: var(--main-color);
+}
+
+.our-team-job{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.171;
+    color:var(--secondary-color);
+}
+
+/*--=== THIRD-PART-END ===--*/
+
+
+/*--=== FOOTER ===--*/
+
+.footer-addres-link{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    text-decoration: none;
+    width: 246px;
+    height: 21px;
+    color: var(--white-color);
+}
+
+.footer-mailto{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    text-decoration: none;
+    width: 231px;
+    height: 21px;
+    color: var(--white-color);
+}
+
+.footer-phone-number{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    text-decoration: none;
+    width: 231px;
+    height: 21px;
+    color: var(--white-color);
+}
+.footer-addres-link:hover{
+    color: var(--hover-color);
+}
+.footer-mailto:hover{
+    color: var(--hover-color);
+}
+.footer-phone-number:hover{
+    color: var(--hover-color)
+}
+
+
+
+/*----=== PORTFOLIO ===----*/
+
+.bnt-item{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--background-color);
+    color:var(--main-color);
+}
+.bnt-item:hover,
+.bnt-item:focus{
+    color:var(--white-color);
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.images-tittle{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color:var(--main-color);
+}
+.images-description{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--secondary-color);
+    
+}
+
+
+/*----=== PORTFOLIO-END ===----*/
