@@ -6,6 +6,7 @@
     --secondary-color: #757575;
     --white-color: #FFFFFF;
     --background-color: #F5F4FA;
+    --footer-color: #2F303A;
 }
 body{
  font-family: var(--main-font);
@@ -22,9 +23,35 @@ body{
     height:auto;
 }
 
-.navigation__logo{
+.navigation__logo {
     font-family: var(--main-font);
+    width: 145px;
+    height: 31px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+   
+    letter-spacing: 0.03em;
+    color: var(--hover-color);
     text-decoration: none;
+    cursor: pointer;
+    margin-right: 93px;
+    padding-top: 24px;
+    
+
+    
+}
+
+.navigation__logo-sec {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .navigation-list-link{
@@ -76,6 +103,9 @@ body{
 
 
 /*--=== FIRST-PART ===--*/
+.first-part{
+    background-color: var(--footer-color);
+}
 
 .main-tittle{
     font-family: var(--secondary-font);
@@ -83,8 +113,8 @@ body{
     font-style: normal;
     font-size: 44px;
     line-height: 1.363;
-    /* text-align:center;
-    color:#FFFFFF; */
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .bnt{
@@ -155,6 +185,9 @@ body{
 
 /*--=== FOOTER ===--*/
 
+.footer{
+    background-color: var(--footer-color)
+}
 .footer-addres-link{
     font-family: var(--secondary-font);
     font-weight: 400;
