@@ -186,53 +186,80 @@ body{
 /*--=== FOOTER ===--*/
 
 .footer{
-    background-color: var(--footer-color)
-}
-.footer-addres-link{
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.714;
-    text-decoration: none;
-    width: 246px;
-    height: 21px;
-    color: var(--white-color);
-}
 
-.footer-mailto{
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.714;
+    background-color: var(--footer-color);
+    
+        
+    }
+    
+    .navigation__logo-down{
+       
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
     text-decoration: none;
-    width: 231px;
-    height: 21px;
-    color: var(--white-color);
-}
-
-.footer-phone-number{
-    font-family: var(--secondary-font);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.714;
-    text-decoration: none;
-    width: 231px;
-    height: 21px;
-    color: var(--white-color);
-}
-.footer-addres-link:hover{
+    
     color: var(--hover-color);
-}
-.footer-mailto:hover{
-    color: var(--hover-color);
-}
-.footer-phone-number:hover{
-    color: var(--hover-color)
-}
+    
+    }
+    .navigation__logo-sec-down{
+    
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    
+    
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    }
+    
+    .address__list{
+        list-style-type: none;
+    }
+    
+    
+    .inmap__adress {
+        
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: var(--white-color);
+    
+    }
+    .inmap__adress:hover{
+        color: var(--hover-color);
+    }
 
+    .email__down {
+        
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    
+    }
+    .email__down:hover{
+        color: var(--hover-color);
+    }
+    .phone__number-down {
+        
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        text-decoration: none;
+        
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .phone__number-down:hover{
+        color: var(--hover-color);
+    }
 
 
 /*----=== PORTFOLIO ===----*/
